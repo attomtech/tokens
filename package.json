@@ -1,0 +1,21 @@
+{
+  "name": "@attomtech/tokens",
+  "version": "1.0.2",
+  "description": "",
+  "author": "Paulo Cezar Motta",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "@attomtech/ts-config": "1.0.0",
+    "@attomtech/eslint-config": "1.0.0"
+  }
+}

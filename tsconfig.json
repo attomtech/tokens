@@ -1,0 +1,6 @@
+{
+  "extends": "@attomtech/ts-config/base.json",
+  "include": [
+    "src"
+  ]
+}
